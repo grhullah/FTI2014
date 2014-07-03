@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
   root 'pages#home'
+  
+  get "news" => "pages#news"
+  get "financials" => "pages#financials"
+  get "products" => "pages#products"
   get "about" => "pages#about"
+  get "contact" => "pages#contact"
   
   
 

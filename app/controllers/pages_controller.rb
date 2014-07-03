@@ -4,4 +4,12 @@ class PagesController < ApplicationController
   
   def about
   end
+  def news
+  end
+  def financials
+  end
+  def products
+  end
+  def contact
+  end
 end
